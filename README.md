@@ -10,6 +10,8 @@
 
 ![Migrantes internacionales](https://user-images.githubusercontent.com/113458958/236061906-f924311d-db4e-4804-a7b6-970f4f9d604b.PNG)
 
+- La gran mayoría de las personas que migran no cruzan fronteras internacionales, sino que permanecen dentro de sus países (se ha estimado que en 2009 había 740 millones de migrantes internos). Dicho esto, el aumento de los migrantes internacionales a lo largo del tiempo – tanto en cifras absolutas como proporcionalmente – ha sido evidente, y algo más rápido de lo que se había pronosticado
+
 ### OBJETIVOS
 
 - Estudiar y analizar el porque de los flujos migratorios, y la relación  que existe con los distintos aspectos: Económicos, Calidad de vida, Seguridad y Medio Ambiente.
