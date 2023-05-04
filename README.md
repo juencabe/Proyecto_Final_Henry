@@ -1,5 +1,5 @@
 
-### PROYECTO:Flujos Estudiar y analizar los flujos migratorios internacionales ocurridos en Argentina en el periodo 2000-2021
+### PROYECTO:Estudiar y analizar los flujos migratorios internacionales ocurridos en Argentina en el periodo 2000-2021
 
 ### INTRODUCCION
 
