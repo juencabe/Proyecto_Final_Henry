@@ -1,5 +1,5 @@
 
-### PROYECTO:Flujos Migratorios entre países
+### PROYECTO:Flujos Estudiar y analizar los flujos migratorios internacionales ocurridos en Argentina en el periodo 2000-2021
 
 ### INTRODUCCION
 
@@ -18,14 +18,11 @@
 
 ### Objetivos
 
-- Estudiar y analizar el porque de los flujos migratorios, y la relación  que existe con los distintos aspectos: Económicos, Calidad de vida, Seguridad y Medio Ambiente.
+- Estudiar y analizar los flujos migratorios internacionales, y la relación  que existe con los distintos aspectos: Económicos, Políticos y de Educación en Argentina.
 
-- Investigar los impactos que se producen en los paises que reciben estos flujos migratorios en los aspectos Económicos, Calidad de vida, Seguridad y Medio Ambiente.
-
-#### Alcance: Paises en America Latina, en el período (2015-2021)
+#### Alcance: Flujos migratorios en Argentina, para el período (2000-2021)
 
 #### KPIs
-
 
 ### ANALISIS Y CONCLUSIONES
 
