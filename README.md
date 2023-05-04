@@ -16,7 +16,7 @@
 
 ### DESARROLLO DEL PROYECTO
 
-### Objetivos
+### Objetivo
 
 - Estudiar y analizar los flujos migratorios internacionales, y la relación  que existe con los distintos aspectos: Económicos, Políticos y de Educación en Argentina.
 
