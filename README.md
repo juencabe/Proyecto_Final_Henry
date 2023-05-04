@@ -18,7 +18,7 @@
 
 ### Objetivo
 
-- Estudiar y analizar los flujos migratorios internacionales, y la relación  que existe con los distintos aspectos: Económicos, Políticos y de Educación en Argentina.
+- Estudiar y analizar los flujos migratorios internacionales, y la relación  que existe con los distintos aspecto en las areas económicas en Argentina
 
 #### Alcance: Flujos migratorios en Argentina, para el período (2000-2021)
 
