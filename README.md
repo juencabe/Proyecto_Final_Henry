@@ -1,6 +1,4 @@
 
-### PROYECTO:Estudiar y analizar los flujos migratorios internacionales ocurridos en Argentina en el periodo 2000-2021
-
 ### INTRODUCCION
 
 - Según la estimación más reciente, en 2020 había en el mundo aproximadamente 281 millones de migrantes internacionales, una cifra equivalente al 3,6% de la población mundial.
@@ -19,7 +17,7 @@
 ### Objetivo
 
 - Estudiar y analizar los flujos migratorios a nivel global
-- o	Analizar la relación e impactos que se generan en la economía
+- Analizar la relación e impactos que se generan en la economía
 
 
 ### Alcance
