@@ -18,11 +18,13 @@
 
 ### Objetivo
 
-- Estudiar y analizar los flujos migratorios internacionales, y la relación e impactos que se generan en la economia de Argentina
+- Estudiar y analizar los flujos migratorios a nivel global
+- o	Analizar la relación e impactos que se generan en la economía
+
 
 ### Alcance
 
-- Flujos migratorios en Argentina, para el período (2000-2021)
+- Migración a nivel global desde el 2000 hasta el 2021
 
 #### KPIs
 
