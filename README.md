@@ -26,7 +26,7 @@
 
 #### KPIs
 
-![KPIs](https://github.com/juencabe/Proyecto_Final_Henry/assets/113458958/40cc714a-f0cd-438c-a12d-95676dcf9db6)
+![KPIs](https://github.com/juencabe/Proyecto_Final_Henry/assets/113458958/52431267-4b54-4dab-9522-1d8b0a47089b)
 
 
 ### CONCLUSIONES
