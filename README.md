@@ -111,8 +111,10 @@ Esta tabla contiene los códigos de los países.
 
 # FUENTE DE DATOS
 
-* Los datos utilizados fueron extraidos de:
-    - <a href='https://www.bancomundial.org/es/who-we-are?cid=ECR_GA_worldbank_es_extp_search&gclid=CjwKCAjwvJyjBhApEiwAWz2nLWid8v9vxlXMnX19gudmcg9HQ84veks8-zmajCVOGzDe9tQUMjyfjxoCQQUQAvD_BwE'>Banco mundial</a>
-    - <a href='https://www.un.org/en/'>Naciones Unidas</a>
-
 <img src='.\scr\img\fuente_datos.png'>
+
+* Los datos utilizados fueron extraidos de:
+    - <a href='https://www.bancomundial.org/es/who-we-are?cid=ECR_GA_worldbank_es_extp_search&gclid=CjwKCAjwvJyjBhApEiwAWz2nLWid8v9vxlXMnX19gudmcg9HQ84veks8-zmajCVOGzDe9tQUMjyfjxoCQQUQAvD_BwE'> API Banco mundial</a>
+    - <a href='https://www.un.org/en/'>Naciones Unidas</a><br>
+Nota: los datos extraidos de la pagina de las Naciones Unidas, por su formato excel, se le realizo la exrtaccion y tranformacion de manera local, para su carga a la nube.
+
