@@ -26,11 +26,11 @@
 
 ## KPIs
 
-![KPIs](.\scr\img\kpis.png)
+<img src='.\scr\img\kpis.png'>
 
 ## Stack Tecnológico
 
-![STACKTEC](.\scr\img\stacktec.png)
+<img src='.\scr\img\stacktec.png'>
 
 ## Diccionario de Datos
 
