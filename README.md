@@ -12,19 +12,19 @@
 
 - La gran mayoría de las personas que migran no cruzan fronteras internacionales, sino que permanecen dentro de sus países (se ha estimado que en 2009 había 740 millones de migrantes internos). Dicho esto, el aumento de los migrantes internacionales a lo largo del tiempo – tanto en cifras absolutas como proporcionalmente – ha sido evidente, y algo más rápido de lo que se había pronosticado
 
-# DESARROLLO DEL PROYECTO
+# **DESARROLLO DEL PROYECTO**
 
-## Objetivo
+## ***Objetivo***
 
 - Estudiar y analizar los flujos migratorios a nivel global
 - Analizar la relación e impactos que se generan en la economía
 
 
-## Alcance
+## ***Alcance***
 
-- Argentina y paises latinoamericanos con emigración o inmigración a Argentina
+- Paises latinoamericanos, con foco en Argentina, entre 2000 a 2021.
 
-## KPIs
+## ***KPIs***
 
 <img src='.\scr\img\kpis.png'>
 
@@ -32,11 +32,13 @@
 
 <img src='.\scr\img\stacktec.png'>
 
-## Diccionario de Datos
+## ***Diccionario de Datos***
 
-### Migración neta
+### **Migración neta**
 
 La migración neta es el total neto de personas que migraron durante el período: la cantidad total de inmigrantes menos la cantidad anual de emigrantes, incluidos los ciudadanos y los no ciudadanos.
+
+* Tabla de Dimencion.
 
 * Columnas: 
     - value: int 
@@ -44,26 +46,30 @@ La migración neta es el total neto de personas que migraron durante el período
     - countryiso3code: str, columna de relación con la tabla cod_pais
 	
 
-### Población, total
+### **Población, total**
 
 La población total se basa en la definición de población de facto, que cuenta a todos los residentes independientemente de su estatus legal o ciudadanía. Los valores que se muestran son estimaciones de mitad de año.
+
+* Tabla de Dimencion.
 
 * Columnas: 
     - value: int 
     - date: int
     - countryiso3code: str, columna de relación con la tabla cod_pais
 
-### PIB (US$ a precios actuales)
+### **PIB (US$ a precios actuales)**
 
 El PIB a precio de comprador es la suma del valor agregado bruto de todos los productores residentes en la economía más todo impuesto a los productos, menos todo subsidio no incluido en el valor de los productos. 
 Se calcula sin hacer deducciones por depreciación de bienes manufacturados o por agotamiento y degradación de recursos naturales. Los datos se expresan en moneda local a precios corrientes.
 
+* Tabla de Dimencion.
+
 * Columnas: 
-    - value: int 
+    - value: float
     - date: int
     - countryiso3code: str, columna de relación con la tabla cod_pais
 	
-### Remesas
+### **Remesas**
 
 Las remesas personales comprenden las transferencias personales y la remuneración de los empleados
 
@@ -73,23 +79,54 @@ La remuneración de los empleados se refiere a los ingresos de los trabajadores 
 
 Los datos están expresados ​​en dólares estadounidenses corrientes. 
 
+* Tabla de Dimencion.
 * Columnas(tabla inmigrante y emigrante): 
-    - value: int 
+    - value: float 
     - date: int
     - countryiso3code: str, columna de relación con la tabla cod_pais
 
 
-### Código Países
+### **Migracion por Tipos**
+
+Tabla de datos que contiene las inmigraciones e inmigraciones (de los años 1990, 1995, 2000, 2005, 2010, 2015, 2020) de los paises estudiados.<br>
+
+
+* tabla de dimencion.
+* Columnas: 
+    - cod_pais: str, columna foranea
+    - date: int
+    - id_tipo_migracion: int, columna foranea
+    - value: int
+
+### **Código Países**
 
 Esta tabla contiene los códigos de los países.
 
+* Tabla de Hecho.
+
 * Columnas: 
-    - countryiso3code: str, columna de primaria
+    - countryiso3code: str, columna primaria
     - nombre_pais: str
 
+### **Tipos de Migracion**
+Tabla de hechos sobre los tipos de migracion: 
+ - inmigrantes: 0
+ - emigrantes: 1
+
+ * Tabla de hechos.
+
+ * Columnas: 
+    - id_tipo_migracion: int, columna primaria
+    - tipo_migracion: str
 
 
-# CONCLUSIONES
+### **Diagrama E/R**
+
+<img src='./scr\img\diagrama-ER.png'>
+
+
+
+# **CONCLUSIONES**
 
 - El mundo envejece rápidamente
 - Hay una disminución de la tasa de natalidad
@@ -102,19 +139,19 @@ Esta tabla contiene los códigos de los países.
 - La emigración de argentinos ha tenido un impacto significativo en la economía del país, ya que muchos de ellos eran jóvenes y altamente calificados, lo que ha generado una fuga de talentos.
 
 
-# RECOMENDACIONES
+# **RECOMENDACIONES**
 - Formular políticas que tengan como objetivo,  la correspondencia entre las habilidades de los migrantes y la demanda en las sociedades de destino.
 - Fomentar la creación de empleo, incentivar la inversión y el emprendimiento
 - Desarrollar habilidades que tengan alta demanda en todo el mundo para que los ciudadanos que emigran puedan obtener mejores empleos.
 - Proteger a sus ciudadanos mientras están en el extranjero, y crear incentivos para que aumenten las remesas al país.
 - Crear políticas que miren el costo/beneficio para atraer los migrantes de acuerdo a las necesidades el país, como por ejemplo ofrecer empleo a migrantes calificados y dar beneficios fiscales
 
-# FUENTE DE DATOS
+# **FUENTE DE DATOS**
 
 <img src='.\scr\img\fuente_datos.png'>
 
 * Los datos utilizados fueron extraidos de:
     - <a href='https://www.bancomundial.org/es/who-we-are?cid=ECR_GA_worldbank_es_extp_search&gclid=CjwKCAjwvJyjBhApEiwAWz2nLWid8v9vxlXMnX19gudmcg9HQ84veks8-zmajCVOGzDe9tQUMjyfjxoCQQUQAvD_BwE'> API Banco mundial</a>
     - <a href='https://www.un.org/en/'>Naciones Unidas</a><br>
-Nota: los datos extraidos de la pagina de las Naciones Unidas, por su formato excel, se le realizo la exrtaccion y tranformacion de manera local, para su carga a la nube.
+Nota: los datos extraidos de la pagina de las Naciones Unidas, por su formato excel, se le realizo la extraccion y tranformacion de manera local, para su carga a la nube.
 
