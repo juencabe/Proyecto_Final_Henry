@@ -156,7 +156,7 @@ Tabla de hechos sobre los tipos de migracion:
         - <a href=https://data.worldbank.org/indicator/SP.POP.TOTL> Población total</a>
         - <a href=https://data.worldbank.org/indicator/SM.POP.NETM> Migración neta</a>
         - <a href=https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS> Remesas personales recibidas</a>
-        - <a hrefhttps=https//data.worldbank.org/indicator/NY.GDP.PCAP.CD> PIB per cápita</a>
+        - <a href=https//data.worldbank.org/indicator/NY.GDP.PCAP.CD> PIB per cápita</a>
         - <a href='https://api.worldbank.org/v2/country?format=xml&per_page=299'>Paises</a>
 
     - <a href='https://www.un.org/development/desa/pd/content/international-migrant-stock'>Naciones Unidas</a><br>
