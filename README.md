@@ -89,7 +89,8 @@ Los datos están expresados ​​en dólares estadounidenses corrientes.
 ### **Migracion por Tipos**
 
 Tabla de datos que contiene las inmigraciones e inmigraciones (de los años 1990, 1995, 2000, 2005, 2010, 2015, 2020) de los paises estudiados.<br>
-
+Esta tabla se realizo con la integracion y noramlizacion de las tablas de emigracion e inmigracino de las Naciones Unidas, dando como resultado de la normalizacion esta tabla de dimencion
+y la tabla Tipos de Migracion como tabla de hechos.
 
 * tabla de dimencion.
 * Columnas: 
@@ -151,7 +152,18 @@ Tabla de hechos sobre los tipos de migracion:
 <img src='.\scr\img\fuente_datos.png'>
 
 * Los datos utilizados fueron extraidos de:
-    - <a href='https://www.bancomundial.org/es/who-we-are?cid=ECR_GA_worldbank_es_extp_search&gclid=CjwKCAjwvJyjBhApEiwAWz2nLWid8v9vxlXMnX19gudmcg9HQ84veks8-zmajCVOGzDe9tQUMjyfjxoCQQUQAvD_BwE'> API Banco mundial</a>
-    - <a href='https://www.un.org/en/'>Naciones Unidas</a><br>
+    - <a href='https://www.bancomundial.org/es/who-we-are?cid=ECR_GA_worldbank_es_extp_search&gclid=CjwKCAjwvJyjBhApEiwAWz2nLWid8v9vxlXMnX19gudmcg9HQ84veks8-zmajCVOGzDe9tQUMjyfjxoCQQUQAvD_BwE'> API Banco mundial</a>:
+        - <a href=https://data.worldbank.org/indicator/SP.POP.TOTL> Población total</a>
+        - <a href=https://data.worldbank.org/indicator/SM.POP.NETM> Migración neta</a>
+        - <a href=https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS> Remesas personales recibidas</a>
+        - <a hrefhttps=//data.worldbank.org/indicator/NY.GDP.PCAP.CD> PIB per cápita</a>
+        - <a href='https://api.worldbank.org/v2/country?format=xml&per_page=299'>Paises</a>
+
+    - <a href='https://www.un.org/development/desa/pd/content/international-migrant-stock'>Naciones Unidas</a><br>
 Nota: los datos extraidos de la pagina de las Naciones Unidas, por su formato excel, se le realizo la extraccion y tranformacion de manera local, para su carga a la nube.
 
+
+### *Autores*
+
+- Ingeniero de Datos: Carlos Porcel, Mariano Lopez
+- Analista: Julio Castano
