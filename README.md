@@ -171,10 +171,3 @@ Tabla de hechos sobre los tipos de migracion:
 
     - <a href='https://www.un.org/development/desa/pd/content/international-migrant-stock'>Naciones Unidas</a><br>
 Nota: los datos extraidos de la pagina de las Naciones Unidas, por su formato excel, se le realizo la extraccion y tranformacion de manera local, para su carga a la nube.
-
-
-### *Autores*
-
-- Carlos Porcel
-- Mariano Lopez
-- Julio Castaño
