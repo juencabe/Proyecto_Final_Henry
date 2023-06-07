@@ -32,6 +32,16 @@
 
 <img src='.\scr\img\stacktec.png'>
 
+## ***Desarrollo del entorno del proyecto***
+
+- Creación del proyecto en Google Cloud Services
+- Habilitar Cloud Storage para guardar los archivos utilizados
+- Utilizar el workbench de Dataflow para los primeros pasos con los datos
+- Implementar tablas en BigQuery para un mejor manejo de los datos
+- Configurar Cloud Function para que verifique las bases de datos utilizadas y actualice el datawarehouse cuando se produzcan cambios
+- Programar Cloud Scheduler para que llame a la función todos los días a las 9 a.m.
+
+
 ## ***Diccionario de Datos***
 
 ### **Migración neta**
