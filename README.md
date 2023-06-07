@@ -175,5 +175,6 @@ Nota: los datos extraidos de la pagina de las Naciones Unidas, por su formato ex
 
 ### *Autores*
 
-- Ingeniero de Datos: Carlos Porcel, Mariano Lopez
-- Analista: Julio Castaño
+- Carlos Porcel
+- Mariano Lopez
+- Julio Castaño
